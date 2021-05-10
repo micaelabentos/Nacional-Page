@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header - Logo / Texto */
+
+.logo__container {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: #243561;
+  border-bottom: 0.1rem solid grey;
+}
+
+.logo__img {
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+}
+
+.logo__text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+/* Fin header / Logo / Texto */
+
+/* Menu */
+
+.menu__container {
+  display: flex;
+  background-color: #243561;
+}
+
+.menu__container nav {
+  width: 100%;
+}
+
+.menu__container li {
+  text-align: center;
+  list-style: none;
+  height: 3rem;
+  margin: 1rem;
+  border-bottom: 0.1rem solid whitesmoke;
+}
+
+.menu__container a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu__container a:hover {
+  color: grey;
+}
+
+/* Fin menu */
+
+/* Seccion Principal */
+
+.news__title {
+  font-size: 2.5rem;
+  color: red;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+.news__container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.news__container-one {
+  border-bottom: 0.2rem solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.news__container-one img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text__container-one {
+  width: 100%;
+  padding: 2rem;
+}
+
+.news__text-one {
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.8rem;
+}
+
+.news__container-two {
+  border-bottom: 0.2rem solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.news__container-two img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text__container-two {
+  width: 100%;
+  padding: 2rem;
+}
+
+.news__text-two {
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.8rem;
+}
+.news__container-three {
+  border-bottom: 0.2rem solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.news__container-three img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text__container-three {
+  width: 100%;
+  padding: 2rem;
+}
+
+.news__text-three {
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.8rem;
+}
+
+.news__container-four {
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #ccc;
+  }
+  
+  .news__container-four img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .text__container-four {
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .news__text-four {
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 2.8rem;
+  }
+  
+/* Fin Seccion Principal */
+
+/* Section - Indumentaria */
+.shirts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shirts__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  color: #243561;
+}
+
+.shirts__container-one {
+  width: 95%;
+  box-shadow: 1px 2px 9px 1px #000000;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.shirts__container-one img {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+}
+.shirts__container-two {
+  width: 95%;
+  box-shadow: 1px 2px 9px 1px #000000;
+  margin-bottom: 3rem;
+}
+
+.shirts__container-two img {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+}
+.shirts__container-three {
+  width: 95%;
+  box-shadow: 1px 2px 9px 1px #000000;
+  margin-bottom: 3rem;
+}
+
+.shirts__container-three img {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+}
+
+.shirts__container-four {
+  width: 95%;
+  box-shadow: 1px 2px 9px 1px #000000;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.shirts__container-four img {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+}
+.shirts__container-five {
+  width: 95%;
+  box-shadow: 1px 2px 9px 1px #000000;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.shirts__container-five img {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+}
+/* Fin Aside - Noticias */
+
+/* Footer - Contacto */
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.facebook {
+  font-size: 5rem;
+  color: blue;
+}
+
+.email {
+  font-size: 5rem;
+  color: black;
+}
+
+.footer__text {
+  font-size: 1.8rem;
+}
+
+/* Fin Footer - Contacto */

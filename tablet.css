@@ -1,0 +1,96 @@
+
+/* Header - Logo / Texto */
+.logo__container {
+    height: 7rem;
+}
+
+.logo__img {
+    width: 5rem;
+    height: 5rem;
+    margin: 3rem;
+}
+
+.logo__text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  font-size: 4rem;
+}
+
+/* FIN Header - Logo / Texto */
+
+
+/* Menu */
+
+.menu__container nav {
+    text-align:center;
+}
+.menu__container li {
+  display: inline-block;
+  border-bottom: none;
+}
+
+.menu__container a {
+  font-size: 3rem;
+  align-items: flex-end;
+
+}
+
+/* FIN Menu */
+
+
+/* Seccion Principal */
+
+.news__title {
+    font-size: 3.5rem;
+}
+
+.news__text-one {
+  font-size: 3.5rem;
+}
+
+.news__text-two {
+  font-size: 3.5rem;
+}
+
+.news__text-three {
+  font-size: 3.5rem;
+}
+
+.news__text-four {
+    font-size: 3.5rem;
+  }
+
+/* FIN Seccion Principal */
+
+
+/* Section - Indumentaria */
+
+.shirts__title {
+  font-size: 4rem;
+}
+
+.shirts__container-one {
+  width: 50%;
+  height: 50%;
+}
+
+.shirts__container-two {
+  width: 50%;
+  height: 50%;
+}
+
+.shirts__container-three {
+  width: 50%;
+  height: 50%;
+}
+
+.shirts__container-four {
+    width: 50%;
+    height: 50%;
+  }
+
+  .shirts__container-five {
+    width: 50%;
+    height: 50%;
+  }
+/* Fin Section - Indumentaria */

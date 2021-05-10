@@ -1,0 +1,110 @@
+/* Header - Logo / Texto */
+
+.logo__container{
+  height: 4.1rem;
+}
+.logo__img{
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+}
+.logo__text {
+  font-size: 2.8rem;
+}
+/* FIN Header - Logo / Texto */
+
+/* Menu */
+
+.menu__container li {
+  height: 2rem;
+}
+
+.menu__container nav {
+
+    text-align: left;
+  }
+
+.menu__container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+/* FIN Menu */
+
+/* Seccion Principal */
+
+.news__container {
+  width: 70%;
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-right: 0.2rem solid #ccc;
+  border-bottom: 0.2rem solid #ccc;
+}
+
+.news__container-title {
+  width: 100%;
+}
+.news__title { 
+  font-size: 2rem;
+}
+
+.news__container-one,
+.news__container-two,
+.news__container-three,
+.news__container-four{
+  width: 45%;
+  margin: 1.5rem;
+}
+
+
+/* FIN Seccion Principal */
+
+.shirts__container {
+  width: 30%;
+}
+
+.shirts__container-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.shirts__title {
+  font-size: 2.5rem;
+}
+
+.shirts__container-one, 
+.shirts__container-two,
+.shirts__container-three,
+.shirts__container-four,
+.shirts__container-five {
+  width: 18rem;
+  box-shadow: none;
+  margin: 1rem;
+  border: gray 0.1rem solid; 
+}
+
+.shirts__container-one img,
+.shirts__container-two img,
+.shirts__container-three img,
+.shirts__container-four img,
+.shirts__container-five img {
+     height: 18rem;
+}
+
+
+
+.contact__container{
+  height: 4rem;
+  overflow: hidden;
+}
+
+
+.email,
+.facebook {
+  font-size: 3rem;
+}
